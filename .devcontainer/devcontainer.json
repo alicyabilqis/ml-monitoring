@@ -1,8 +1,5 @@
 {
   "name": "monitoring-ml",
   "image": "mcr.microsoft.com/devcontainers/python:3.10",
-  "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-  },
-  "forwardPorts": [5000, 8000, 9090, 3000],
+  "forwardPorts": [5000, 8000, 9090, 3000]  
 }
