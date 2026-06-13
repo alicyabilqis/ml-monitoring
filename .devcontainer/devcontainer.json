@@ -1,5 +1,16 @@
 {
   "name": "monitoring-ml",
   "image": "mcr.microsoft.com/devcontainers/python:3.10",
-  "forwardPorts": [5000, 8000, 9090, 3000]  
+
+  "forwardPorts": [5000, 8000, 9090],
+
+  "postCreateCommand": "pip install -r requirements.txt",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
 }
